@@ -1,17 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+        h1{
+	text-align: center;
+	font-weight: bolder;
+	font-size: 7vw;
+}
+h2{
+	text-align: center;
+	font-weight: lighter;
+	font-size: 5vw;
+}
+label{
+	text-align: center;
+	font-weight: lighter;
+	font-size: 2vw;
+	padding:26%;
+	margin-left: 1%;
+}
+
+.bar{
+	margin:0 auto;
+	width: 575px;
+	border-radius: 30px;
+	border: 1px solid #dcdcdc;
+	margin-left: 28%;
+}
+.bar:hover{
+	box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+.bar:focus-within{
+	box-shadow: 1px 1px 8px 1px #dcdcdc;
+	outline: none;
+}
+.searchbar{
+	height:45px;
+	border: none;
+	width: 500px;
+	font-size: 16px;
+	text-align: center;
+	outline: none;
+}
+.buttons{
+	margin-top: 10px;
+}
+.button{
+	background-color: #f5f5f5;
+	border:none;
+	font-size: 1.5vw;
+	padding: 15px;
+	margin:5px;
+	margin-left:45%;
+	border-radius: 4px;
+	outline: none;
+}
+.button:hover{
+	border:1px solid #c8c8c8;
+	padding:9px 19px;
+	color:#808080;
+}
+.button:focus{
+	border:1px solid #4885ed;
+	padding:9px 19px;
+}
+    </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
     <title>Calender</title>
 </head>
 <body>
-    <h1>Calender</h1>
-    <input type="number" name="year" value="year" >
-    <h1 style="text-align: center; font-size: 80px;font-weight: bolder;">Welcome to our E-Calendar Website</h1>
-    <label style="text-align: center;font-size: 40px;font-weight: bold;padding: 27%">Enter Year Below in the Search Bar</label>
-    <input type="text" class="searchbar" title="search" style="margin: 0 auto;width: 575px;border-radius: 30px;border:1px solid #dcdcdc;box-shadow: 1px 1px 8px 1px #dcdcdc;outline: none;height: 45px;border:none;width: 500px;font-size: 16px;outline: none;left: 10px;top: 5px;margin-top: 30px;margin-bottom: 20px;margin-left: 400px;text-align: center;" >
-    <button class="button"type="button" style="margin-top: 50px; background-color: #f5f5f5;border:none;font-size: 15px;padding: 10px 20px;margin:5px;border-radius: 4px;outline: none;" >Show</button>
+   
+		<h1>Welcome to our Website</h1>
+		<h2>E-Calendar</h2>
+		<label>Enter The Year to be searched in the Search Bar below...</label>
+	<div class="bar">
+		<input class="searchbar" type="text" title="Search" >
+	</div>
+	<div>
+		<button type="button" class="button">Show</button>
+	</div>
 </body>
 </html>
