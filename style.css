@@ -16,6 +16,10 @@ label{
 	margin-left: 1%;
 }
 
+.searchbar{
+    top: 75px;
+}
+
 .searchbar input{
 	display: block;
     height: 30px;
@@ -29,6 +33,7 @@ label{
 }
 .searchbar input:hover{
 	box-shadow: 1px 1px 8px 1px #dcdcdc;
+    border: 1px solid rgb(44, 39, 39);
 }
 .searchbar input:focus-within{
 	box-shadow: 1px 1px 8px 1px #dcdcdc;
