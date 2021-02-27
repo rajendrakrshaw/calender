@@ -16,29 +16,25 @@ label{
 	margin-left: 1%;
 }
 
-.bar{
-	margin:0 auto;
-	width: 575px;
+.searchbar input{
+	display: block;
+    height: 30px;
+	width: 175px;
 	border-radius: 30px;
 	border: 1px solid #dcdcdc;
-	margin-left: 28%;
+	margin: auto;
+    padding: 0px 15px;
+    font-size: 20px;
+    text-align: center;
 }
-.bar:hover{
+.searchbar input:hover{
 	box-shadow: 1px 1px 8px 1px #dcdcdc;
 }
-.bar:focus-within{
+.searchbar input:focus-within{
 	box-shadow: 1px 1px 8px 1px #dcdcdc;
 	outline: none;
 }
-.searchbar {
-    height: 45px;
-    border: none;
-    width: 500px;
-    font-size: 16px;
-    text-align: center;
-    outline: none;
-    margin-left: 20px;
-}
+
 .buttons{
 	margin-top: 10px;
 }
